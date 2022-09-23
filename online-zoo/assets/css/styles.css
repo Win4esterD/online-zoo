@@ -8,12 +8,34 @@ header{
     background: #000000;
     height: 80px;
     backdrop-filter: blur(2px);
+    z-index: 1;
+    position: absolute;
 }
 
 .logo{
     position: absolute;
+    box-sizing: border-box;
+    width: 82px;
+    height: 52px;
     left: 220px;
     top: 14px;
+    top: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1.18841px solid #FFFFFF;
+}
+
+.logo>h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+}
+
+.logo>h1>img{
+    position: relative;
+    right: 57px;
 }
 
 .nav-header{
@@ -54,4 +76,204 @@ header>a{
 
 #active-nav:hover{
     text-decoration: none;
+}
+
+.animal-online{
+    width: 100%;
+    height: 780px;
+    background-image: url("/assets/img/Giant Panda.png");
+    background-size: 100% 100%;
+}
+
+.animal-online>img{
+    position: absolute;
+    width: 465px;
+    height: 465px;
+    top: 92px;
+    left: calc(50% - 465px/2 + 239.5px);
+}
+
+.animal-online>div{
+    position: absolute;
+    width: 500.31px;
+    height: 400px;
+    left: calc(50% - 500.31px/2 + 330.15px);
+    top: 166px;
+}
+
+.animal-online>div>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 106.496px;
+    line-height: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.animal-online>div>p:nth-child(3){
+    color: #FFEE2E;
+}
+
+.animal-online>button{
+    position: absolute;
+    width: 298px;
+    height: 54px;
+    left: calc(50% - 298px/2 + 332px);
+    top: 626px;
+    /* orange */
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border: none;
+    border-radius: 25px;
+    /* btn. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.animal-online>button:hover{
+    background: #E47209;
+}
+
+.animal-online>button:active{
+    background: #4B9200;
+}
+
+.animal-online>button:disabled{
+    background: #767474;
+}
+
+.backstage>div{
+    display: flex;
+    height: 403px;
+    width: 1161px;
+    margin-left: 219px;
+    margin-right: 220px;
+    margin-top: 140px;
+}
+
+.backstage>div>div>p{
+    position: relative;
+    margin-left: 87px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    color: #333B41;
+}
+
+.backstage>div>div>p:nth-child(1){
+    font-size: 48px;
+    line-height: 120%;
+}
+
+.backstage>div>div>p:nth-child(2){
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.backstage>div>div>p:nth-child(3){
+    font-size: 24px;
+    line-height: 120%;
+    margin-top: 54px;
+}
+
+.backstage>div>div>p:nth-child(4){
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 34px;
+}
+
+.backstage>img{
+    position: absolute;
+    width: 293px;
+    height: 605px;
+    left: 1400px;
+    top: 792px;
+    background: url(flower_foto.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.pets-selection{
+    display: flex;
+    width: 1160px;
+    height: 872px;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 180px;
+    margin-left: calc(50% - 1158px/2 - 1px);
+}
+
+.pets-selection>div{
+    box-sizing: border-box;
+    width: 366px;
+    height: 426px;
+    border: 1px solid #FA6F32;
+    border-radius: 5px;
+    
+}
+
+.pets-selection>div>img{
+    width: 364px;
+    height: 366px;
+    border-radius: 5px 5px none none;
+    transition: 1s;
+}
+
+.pets-selection>div>img:hover{
+    transform: scale(1.1);
+}
+
+
+
+.icon{
+    position: relative;
+    width: 33px;
+    height: 37px;
+    left: 293px;
+    bottom: 31px;
+}
+
+.fish{
+    width: 48px;
+    height: 38px;
+    left: 293px;;
+}
+
+.pets-selection>div>div{
+    width: 294px;
+    margin-left: 16px;
+    transition: 1.3s;
+}
+
+.pets-selection>div>img:hover ~ .pand{
+    margin-top: 20px;
+    background-color:#d9d9d9;
+}
+
+.animal-header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.animal-desc{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #000000;
 }
