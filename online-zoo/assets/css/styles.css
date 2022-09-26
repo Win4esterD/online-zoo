@@ -735,7 +735,8 @@ footer{
 .panda-bg{
     height: 390px;
     background-image: url('/win4esterd-JSFE2022Q3/online-zoo/assets/img/pandag.png');
-    background-size: 100% 100%;
+    background-size: 100%;
+    background-position: center;
 }
 
 .pick-f{
