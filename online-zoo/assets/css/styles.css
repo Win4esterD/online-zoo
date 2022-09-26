@@ -344,6 +344,19 @@ header>a{
     cursor: pointer;
 }
 
+#choose-fav>a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
 #choose-fav:hover{
     background: #E47209;
 }
