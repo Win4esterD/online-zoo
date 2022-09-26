@@ -299,7 +299,7 @@ header>a{
 }
 
 #arr1{
-    right: 1400px;
+    left: 138px;
     top: 1906px;
 }
 
@@ -340,6 +340,7 @@ header>a{
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 #choose-fav:hover{
@@ -383,9 +384,8 @@ header>a{
     border-radius: 20px;
 }
 
-.pick>h2{
+.pick-h2{
     padding-top: 41px;
-    margin-left: left: calc(50% - 463px/2 + 1.5px);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -715,6 +715,11 @@ footer{
     line-height: 130%;
     color: #FFFFFF;
     padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.designed-by>p:active{
+    color: #4B9200;
 }
 
 #header-donate{
@@ -778,4 +783,214 @@ footer{
     background: rgba(255, 255, 255, 0.52);
     backdrop-filter: blur(2px);
     border-radius: 20px;
+}
+
+.pick-f-info{
+    position: relative;
+    width: 976px;
+    height: 862px;
+    margin-left: calc(50% - 976px/2);
+    top: 40px;
+}
+
+.pick-f-info>h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #FE9013;
+}
+
+.pick-f-info>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333B41;
+}
+
+.panda-4x{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 215px;
+    gap: 89px;
+}
+
+.panda-4x>div:nth-child(1){
+    padding-top: 123px;
+}
+
+.panda-4x>div:nth-child(1)>img{
+    padding-left: 35px;
+}
+
+.panda-4x>div>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #333B41;
+}
+
+#amnt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.scale{
+    width: 976px;
+    height: 27px;
+    background: #404950;
+    border-radius: 2px;
+    margin-top: 17px;
+}
+
+.scalings{
+    position: relative;
+    width: 915px;
+    height: 2px;
+    background: #72828E;
+    top: 12px;
+    left: 31px;
+}
+
+.points{
+    display: flex;
+    position: relative;
+    bottom: 4px;
+    gap: 120px;
+}
+
+.point{
+    width: 10px;
+    height: 10px;
+    left: 416px;
+    top: 508px;
+    background: #FFEE2E;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+#roller1{
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+}
+
+.amounts{
+    display: flex;
+    gap: 66px;
+    margin-top: 6px;
+}
+
+.amount{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+}
+
+#golden{
+    color: #FE9013;
+}
+
+#donate-amount::-webkit-outer-spin-button,
+#donate-amount::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#donate-amount{
+    width: 268px;
+    height: 54px;
+    margin-top: 50px;
+    margin-left: 370px;
+    background: none;
+    border-radius: 5px;
+    border-color: #929699;
+}
+
+#donate-amount::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #929699;
+    padding-left: 9px;
+}
+
+#usd{
+    position: relative;
+    right: 28px;
+    top: 6px;
+}
+
+.donation-periods{
+    display: flex;
+    gap: 50px;
+    margin-left: 382px;
+    margin-top: 25px;
+}
+
+.donation-periods>div{
+    display: flex;
+    gap: 10px;
+}
+
+.donation-periods>div>div{
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 2px;
+    border: 1px solid #FE9013;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#active{
+    background-color: #FE9013;
+}
+
+.donation-periods>div>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+}
+
+#donation-page{
+    position: relative;
+    bottom: 119px;
+    left: 467px;
+}
+
+.share{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+    left: 470px;
+    bottom: 90px;
 }
