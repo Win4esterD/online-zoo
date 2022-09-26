@@ -236,6 +236,7 @@ header>a{
     width: 364px;
     height: 366px;
     border-radius: 5px 5px none none;
+    cursor: pointer;
     transition: 1s;
 }
 
