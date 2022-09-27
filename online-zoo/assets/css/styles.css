@@ -488,6 +488,19 @@ header>a{
     cursor: pointer;
 }
 
+.btn>a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .btn:hover{
     background: #E47209;
 }
