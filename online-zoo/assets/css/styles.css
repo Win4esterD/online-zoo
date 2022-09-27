@@ -854,6 +854,13 @@ footer{
     width: 14px;
     height: 14px;
     top: 159px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #333B41;
 }
 
 .panda-4x>div:nth-child(1){
