@@ -565,6 +565,8 @@ header>a{
     background: #4B9200
 }
 
+
+
 .leave-feedback{
     width: 298px;
     height: 54px;
@@ -844,7 +846,14 @@ footer{
     display: flex;
     margin-top: 60px;
     margin-left: 215px;
-    gap: 89px;
+    gap: 50px;
+}
+
+#x-icon{
+    position: relative;
+    width: 14px;
+    height: 14px;
+    top: 159px;
 }
 
 .panda-4x>div:nth-child(1){
