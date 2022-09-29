@@ -95,7 +95,7 @@ header>a{
 .animal-online{
     width: 100%;
     height: 780px;
-    background-image: url('/win4esterd-JSFE2022Q3/online-zoo/assets/img/pandag.png');
+    background-image: url('/../../assets/img/pandag.png');
     background-size: 100% 100%;
 }
 
@@ -132,31 +132,9 @@ header>a{
 
 .animal-online>button{
     position: absolute;
-    /* width: 298px;
-    height: 54px; */
     left: calc(50% - 298px/2 + 332px);
     top: 626px;
-    /* background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-    border: none;
-    border-radius: 25px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 140%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    cursor: pointer; */
 }
-/* 
-.animal-online>button:hover{
-    background: #E47209;
-}
-
-.animal-online>button:active{
-    background: #4B9200;
-} */
 
 .animal-online>button:disabled{
     background: #767474;
@@ -763,7 +741,7 @@ footer{
 
 .panda-bg{
     height: 390px;
-    background-image: url('/win4esterd-JSFE2022Q3/online-zoo/assets/img/pandag.png');
+    background-image: url('/../../assets/img/pandag.png');
     background-size: 100%;
     background-position: center;
 }
