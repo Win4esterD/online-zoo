@@ -7,6 +7,14 @@ html{
     overflow-x: hidden;
 }
 
+#burger-menu{
+    display: none;
+}
+
+.burger{
+    display: none;
+}
+
 header{
     width: 100%;
     background: #000000;
@@ -95,7 +103,7 @@ header>a{
 .animal-online{
     width: 100%;
     height: 780px;
-    background-image: url(/assets/img/pandag.png);
+    background-image: url(../../assets/img/pandag.png);
     background-size: 100% 100%;
 }
 
@@ -132,31 +140,9 @@ header>a{
 
 .animal-online>button{
     position: absolute;
-    /* width: 298px;
-    height: 54px; */
     left: calc(50% - 298px/2 + 332px);
     top: 626px;
-    /* background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-    border: none;
-    border-radius: 25px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 140%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    cursor: pointer; */
 }
-/* 
-.animal-online>button:hover{
-    background: #E47209;
-}
-
-.animal-online>button:active{
-    background: #4B9200;
-} */
 
 .animal-online>button:disabled{
     background: #767474;
@@ -213,15 +199,25 @@ header>a{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+/* .pets{
+    height: 1285px;
+} */
+
 .pets-selection{
     display: flex;
+    position: relative;
+    flex-direction: row;
     width: 1160px;
     height: 872px;
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 180px;
     margin-left: calc(50% - 1158px/2 - 1px);
+    transition: all 1s ease-out;
+    /* transition: all ease 1s; */
 }
+
+
 
 .pets-selection>div{
     box-sizing: border-box;
@@ -236,11 +232,20 @@ header>a{
     width: 364px;
     height: 366px;
     border-radius: 5px 5px none none;
+    cursor: pointer;
     transition: 1s;
 }
 
 .pets-selection>div>img:hover{
     transform: scale(1.1);
+}
+
+.item-7{
+    display: none;
+}
+
+.item-8{
+    display: none;
 }
 
 
@@ -287,6 +292,10 @@ header>a{
     font-size: 15px;
     line-height: 120%;
     color: #000000;
+}
+
+.animal-desc-2{
+    display: none;
 }
 
 #arr1, #arr2{
@@ -343,6 +352,19 @@ header>a{
     cursor: pointer;
 }
 
+#choose-fav>a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
 #choose-fav:hover{
     background: #E47209;
 }
@@ -355,6 +377,10 @@ header>a{
     position: absolute;
     left: 0px;
     top: 2149px;
+}
+
+.palm-mobile{
+    display: none;
 }
 
 .strel{
@@ -370,6 +396,12 @@ header>a{
     opacity: 0.9;
     height: 1004px;
     width: 100%;
+}
+
+.extra-feed{
+    display: none;
+    opacity: 0;
+    transition: 3s ease-in-out;
 }
 
 .pick{
@@ -453,6 +485,14 @@ header>a{
     gap: 30px;
 }
 
+.arrow-mob{
+    display: none;
+}
+
+.donation-mob{
+    display: none;
+}
+
 .donation>div:nth-child(2), .donation>div:nth-child(4){
     margin-top: 61px;
 }
@@ -472,6 +512,19 @@ header>a{
     text-transform: uppercase;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+.btn>a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .btn:hover{
@@ -508,10 +561,31 @@ header>a{
     color: #333B41;
 }
 
+.popup{
+    display: none;
+}
+
+.feedback-mob{
+    display: none;
+}
+
+.feedback-mob2{
+    display: none;
+}
+
 .feedback{
     display: flex;
     gap: 30px;
     margin-top: 47px;
+}
+
+.feedback>div{
+    Width: 294px;
+    Height: 391px;
+}
+
+.extra{
+    display: none;
 }
 
 .testis>div:last-child{
@@ -524,19 +598,54 @@ header>a{
     margin-left: 280px;
 }
 
-#scroller{
+/* #scroller{
     position: relative;
     bottom: 11px;
     width: 115.19px;
     height: 6px;
     background: #FE9013;
+    color: #FE9013;
     border-radius: 5px;
+    cursor: pointer;
+} */
+
+#scroller{ 
+    width: 599px;
+    height: 8px;
+    margin-bottom: 10px;
+    left: calc(50% - 599px/2 - 0.5px);
+    top: 516px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    border-color: pink;
     cursor: pointer;
 }
 
-#scroller:active{
-    background: #4B9200
+input[type=range] {
+    -webkit-appearance: none;
+    border-radius: 5px;
+    width: 200px;
+    height:20px;
 }
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #FE9013;
+    width: 115.19px;
+    height: 6px;
+    border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb:active{
+    background: green;
+}
+
+
+/* #scroller:active{
+    background: #4B9200
+} */
+
+
 
 .leave-feedback{
     width: 298px;
@@ -591,6 +700,10 @@ footer{
     top: 41px;
 }
 
+.logo-footer-mob{
+    display: none;
+}
+
 #for-volunteers{
     position: relative;
     top: 94px;
@@ -617,6 +730,10 @@ footer{
     gap: 10px;
     top: 140px;
     left: 220px;
+}
+
+.socials-mob{
+    display:none;
 }
 
 .socials>div{
@@ -733,8 +850,9 @@ footer{
 
 
 .panda-bg{
+    width: 100%;
     height: 390px;
-    background-image: url(/assets/img/pandag.png);
+    background-image: url(../../assets/img/panda_bg_1600.png);
     background-size: 100% 100%;
 }
 
@@ -816,7 +934,21 @@ footer{
     display: flex;
     margin-top: 60px;
     margin-left: 215px;
-    gap: 89px;
+    gap: 50px;
+}
+
+#x-icon{
+    position: relative;
+    width: 14px;
+    height: 14px;
+    top: 159px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #333B41;
 }
 
 .panda-4x>div:nth-child(1){
@@ -882,8 +1014,20 @@ footer{
     z-index: 2;
 }
 
+.roller{
+    display: none;
+}
+
 
 #roller1{
+    display: block;
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+}
+
+#roller2{
+    display: none;
     position: relative;
     bottom: 15px;
     right: 15px;

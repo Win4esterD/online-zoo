@@ -1,0 +1,900 @@
+@media (max-width: 1599px){
+    .logo{
+        left: 13.75vw;
+    }
+
+    .nav-header, .nav-footer{
+        left: 22.81vw;
+    }
+
+    .nav-header>ul, .nav-footer>ul {
+        gap: 3.62vw;
+    }
+
+    
+    
+    header>a{
+        right: 13.75vw;
+    }
+    
+    
+    .backstage>div{
+        margin-left: 13.69vw;
+        margin-right: 13.75vw;
+    }
+    
+    .backstage>div>div>p{
+        margin-left: 5.44vw;
+    } 
+    
+    .pets-selection>div>div{
+        width: 294px;
+        margin-left: 1.0vw;
+        transition: 1.3s;
+    }
+    
+    
+    #arr1{
+        left: 8.62vw;
+    }
+    
+    #arr2{
+        right: 2vw;
+    }
+    
+    #arr2>img, #arr1>img{
+        left: 1.44vw;
+    }
+    
+    
+    .palm{
+        position: absolute;
+        left: 0px;
+        top: 2149px;
+    }
+    
+    .strel{
+        width: 320px;
+        height: 217px;
+        right: 0px;
+        top: 2391px;
+        right: 0px;
+    }
+    
+    .pick{
+        margin-left: 13.75vw;
+        margin-right: 13.75vw;
+        top: 69px;
+    }
+    
+    
+    .donation{
+        display: flex;
+        margin-top: 40px;
+        margin-left: calc(50% - 168px/2 - 298px);
+        gap: 1.88vw;
+    } 
+    
+    
+    .testis{
+        height: 575px;
+        width: 1160px;
+        margin-left: 13.75vw;
+        margin-right: 13.75vw;
+        margin-top: 140px;
+    }
+    
+    .feedback{
+        display: flex;
+        gap: 1.88vw;
+        margin-top: 47px;
+    }
+    
+    .testis>div:last-child{
+        margin-top: 21px;
+        margin-left: calc(50% - 599px/2 - 0.5px);
+    }
+    
+    #scroll-block{
+        margin-top: 21px;
+        margin-left: 17.5vw;
+    }
+     
+    
+    
+    .nav-footer{
+         left: calc(50% - 43px/2 - 159.5px);
+        
+    }
+    
+    
+    .logo-footer{
+        left: 13.75vw;
+    }
+    
+    #for-volunteers{
+        left: 13.75vw;
+    }
+    
+    .socials{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        gap: 10px;
+        top: 140px;
+        left: 13.75vw;
+    }
+    
+    .input{
+        position: relative;
+        left: 63.31vw;
+        bottom: 206px;
+    }
+
+    
+    .input>input::placeholder{
+        padding-left: 0.62vw;
+    }
+    
+    .input>input:focus{
+        padding-left: 0.62vw;
+    }
+    
+    
+    .designed-by{
+        position: relative;
+        left: 72.0vw;
+        bottom: 22px;
+    }
+    
+    /* Тут страница "Donate" */
+    
+    .panda-bg{
+        height: 390px;
+    }
+    
+    .pick-f{
+        height: 1482px;
+    }
+    
+    
+    .pick-f>p{
+        margin: 10px 15.75vw 0px;
+    }
+    
+    .pick-f>h2{
+        margin-left: 15.75vw;
+        margin-top: 40px;
+    }
+    
+    .pick-f-div{
+        width: 72.5vw;
+        height: 964px;
+        margin-left: 13.75vw;
+        margin-top: 60px;
+    }
+    
+    .pick-f-info{
+        position: relative;
+        width: 61.0vw;
+        height: 862px;
+        margin-left: calc(50% - 976px/2);
+        top: 40px;
+    }
+    
+    
+    .panda-4x{
+        margin-top: 60px;
+        margin-left: 13.44vw;
+        gap: 3.12vw;
+    }
+    
+    #x-icon{
+        position: relative;
+        width: 14px;
+        height: 14px;
+        top: 159px;
+    }
+    
+    .panda-4x>div:nth-child(1){
+        padding-top: 123px;
+    }
+    
+    .panda-4x>div:nth-child(1)>img{
+        padding-left: 2.19vw;
+    }
+    
+    .scale{
+        width: 61.0vw;
+        height: 27px;
+        margin-top: 17px;
+    }
+    
+    .scalings{
+        width: 57.19vw;
+        height: 2px;
+        top: 12px;
+        left: 1.94vw;
+    }
+    
+    .points{
+        display: flex;
+        bottom: 4px;
+        gap: 7.5vw;
+    }
+    
+    .point{
+        width: 10px;
+        height: 10px;
+        left: 26.0vw;
+        top: 508px;
+    }
+    
+    
+    #roller1{
+        position: relative;
+        bottom: 15px;
+        right: 15px;
+    }
+    
+    .amounts{
+        display: flex;
+        gap: 4.12vw;
+        margin-top: 6px;
+    }
+    
+    
+    
+    #donate-amount{
+        width: 16.75vw;
+        height: 54px;
+        margin-top: 50px;
+        margin-left: 23.12vw;
+    }
+    
+    #donate-amount::placeholder{
+        padding-left: 0.56vw;
+    }
+    
+    #usd{
+        position: relative;
+        right: 28px;
+        top: 6px;
+    }
+    
+    .donation-periods{
+        display: flex;
+        gap: 3.12vw;
+        margin-left: 23.88vw;
+        margin-top: 25px;
+    }
+    
+    .donation-periods>div{
+        display: flex;
+        gap: 0.62vw;
+    }
+    
+    
+    #donation-page{
+        position: relative;
+        bottom: 119px;
+        left: 29.19vw;
+    }
+    
+    .share{
+        left: 29.38vw;
+        bottom: 90px;
+    }
+}
+
+/* Тут 1440px */
+
+@media (max-width: 1440px){
+
+    .backstage>div {
+        margin-left: 3.69vw;
+    }
+
+    .backstage>img{
+        left: 90vw;
+    }
+
+    .pets-selection{
+        margin-left: 4.5vw;
+    }
+
+    .palm{
+        top: 2408px;
+        height: 202px;
+    }
+
+    .pick{
+        margin-left: 5vw;
+    }
+
+    #arr1{
+        left: 0vw;
+    }
+
+
+    .testis{
+        margin-left: 4.5vw;
+    }
+}
+
+/* 1380px */
+
+@media (max-width: 1380px){
+    .pick-f-info>p{
+        width: 1000px;
+        margin-left: 5vw;
+    }
+
+    .scale{
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .amounts{
+        margin-left: 10%;
+        gap: 3.5vw;
+    }
+
+    .amount{
+        font-size: 26px;
+    }
+}
+
+/* 1320px */
+
+@media (max-width: 1320px){
+    #arr2{
+        right: 0vw;
+    }
+}
+
+/* Тут делаем на 1280px */
+
+@media (max-width: 1280px){
+    .logo{
+        left: 2.34vw;
+    }
+
+    .nav-header, .nav-footer{
+        left: 13.67vw;
+    }
+
+    .nav-header>ul, .nav-footer>ul {
+        gap: 3.75vw;
+    }
+
+    .animal-online>img{
+        position: absolute;
+        top: 69px;
+        left: calc(50% - 367px/2 + 139.5px);
+    }
+
+    .animal-online>div{
+        top: 122.8px;
+        left: calc(43% - 500.31px/2 + 330.15px);
+    }
+
+    .animal-online>button{
+        left: calc(39% - 298px/2 + 332px);
+    }
+
+
+    header>a{
+        right: 2.34vw;
+    }
+    
+    
+    .backstage>div{
+        margin-top: 100px;
+        margin-left: 3.69vw;
+    }
+
+    .backstage>img{
+        display:none;
+        left: 92vw;
+    }
+
+    
+
+    #choose-fav{
+        margin-top: 209px;
+        margin-bottom: 140px;
+        margin-left: calc(49% - 298px/2);
+    }
+
+    .pets-selection{
+        margin-top: 142px;
+    }
+
+    .pets-selection>div{
+        margin-bottom: 92px;
+    }
+    
+    .backstage>div>div>p{
+        margin-left: 5.44vw;
+    } 
+    
+    .pets-selection>div>div{
+        width: 22.97vw;
+        margin-left: 1.0vw;
+        transition: 1.3s;
+    }
+    
+    
+    #arr1{
+        top: 1870px;
+        left: 34.62vw;
+    }
+    
+    #arr2{
+        right: 34.75vw;
+        top: 1870px;
+    }
+    
+    #arr2>img, #arr1>img{
+        left: 1.44vw;
+    }
+    
+    
+    .palm{
+        position: absolute;
+        left: 0px;
+        top: 2400px;
+        height: 300px;
+        width: 193px;
+    }
+    
+    .strel{
+        top: 2426px;
+        right: 0px;
+    }
+    
+    .pick{
+        margin-left: 2.34vw;
+        margin-right: 2.34vw;
+        top: 30px;
+    }
+    
+    
+    .donation{
+        display: flex;
+        margin-top: 40px;
+        margin-left: calc(50% - 168px/2 - 298px);
+        gap: 1.88vw;
+    } 
+    
+    
+    .testis{
+        height: 575px;
+        width: 1160px;
+        margin-left: 13.75vw;
+        margin-right: 13.75vw;
+        margin-top: 100px;
+    }
+    
+    .feedback{
+        display: flex;
+        gap: 2.34vw;
+        margin-top: 30px;
+        /* margin-left: -2.34vw; */
+    }
+
+    .feedback>div{
+        width: 293px;
+        height: 391px;
+    }
+
+    .feedback>div:nth-child(2){
+        display: none;
+    }
+    
+    /* .testis>div:last-child{
+        margin-top: 21px;
+        margin-left: calc(50% - 599px/2 - 0.5px);
+    } */
+    
+
+    #scroll-block{
+        margin-top: 21px;
+        margin-left: 17.5vw;
+    }
+     
+    
+    
+    .nav-footer{
+         left: calc(50% - 43px/2 - 159.5px);
+        
+    }
+    
+    
+    .logo-footer{
+        left: 13.75vw;
+    }
+    
+    #for-volunteers{
+        left: 13.75vw;
+    }
+    
+    .socials{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        gap: 10px;
+        top: 140px;
+        left: 13.75vw;
+    }
+    
+    .input{
+        position: relative;
+        left: 63.31vw;
+        bottom: 206px;
+    }
+
+    
+    .input>input::placeholder{
+        padding-left: 0.62vw;
+    }
+    
+    .input>input:focus{
+        padding-left: 0.62vw;
+    }
+    
+    
+    .designed-by{
+        position: relative;
+        left: 72.0vw;
+        bottom: 22px;
+    }
+    
+    /* Тут страница "Donate" */
+    
+    .panda-bg{
+        height: 390px;
+        width: 1600px;
+    }
+    
+    .pick-f{
+        height: 1482px;
+    }
+
+    .pick-f>h1{
+        margin-left: 15.45vw;
+    }
+    
+    
+    .pick-f>h2{
+        margin-left: 15.75vw;
+        margin-top: 40px;
+    }
+    
+    .pick-f-div{
+        width: 72.5vw;
+        height: 964px;
+        margin-left: 13.75vw;
+        margin-top: 60px;
+    }
+    
+    .pick-f-info{
+        position: relative;
+        width: 100%;
+        height: 862px;
+        margin-left: calc(50% - 976px/2);
+        top: 40px;
+    }
+
+    
+
+    .pick-f-info>p:nth-child(2){
+        margin-left: 5vw;
+    }
+    
+    
+    .panda-4x{
+        margin-top: 60px;
+        margin-left: 13.44vw;
+        gap: 3.12vw;
+    }
+    
+    #x-icon{
+        position: relative;
+        width: 14px;
+        height: 14px;
+        top: 159px;
+    }
+    
+    .panda-4x>div:nth-child(1){
+        padding-top: 123px;
+    }
+    
+    .panda-4x>div:nth-child(1)>img{
+        padding-left: 2.19vw;
+    }
+
+    #amnt{
+        margin-left: 7vw;
+    }
+    
+    .scale{
+        width: 63.28vw;
+        height: 27px;
+        margin-top: 17px;
+        margin-left: 5.9vw;
+    }
+    
+    .scalings{
+        width: 58.75vw;
+        height: 2px;
+        top: 12px;
+        left: 1.94vw;
+    }
+    
+    .points{
+        display: flex;
+        bottom: 4px;
+        gap: 9vw;
+    }
+    
+    .point{
+        width: 10px;
+        height: 10px;
+        left: 26.0vw;
+        top: 508px;
+    }
+
+    .point:first-child{
+        display: none;
+    }
+    
+    
+    #roller1{
+        position: relative;
+        bottom: 15px;
+        right: 15px;
+    }
+    
+    .amounts{
+        display: flex;
+        gap: 5.4vw;
+        margin-top: 6px;
+        margin-left: 5.08vw;
+    }
+
+    .amount:first-child{
+        display: none;
+    }
+    
+    
+    
+    #donate-amount{
+        width: 20.94vw;
+        height: 54px;
+        margin-top: 50px;
+        margin-left: 28.25vw;
+    }
+    
+    #donate-amount::placeholder{
+        padding-left: 0.56vw;
+    }
+    
+    #usd{
+        position: relative;
+        right: 28px;
+        top: 6px;
+    }
+    
+    .donation-periods{
+        display: flex;
+        gap: 3.12vw;
+        margin-left: 30.88vw;
+        margin-top: 25px;
+    }
+    
+    .donation-periods>div{
+        display: flex;
+        gap: 0.62vw;
+    }
+    
+    
+    #donation-page{
+        position: relative;
+        bottom: 119px;
+        left: 26.19vw;
+    }
+    
+    .share{
+        left: 27.38vw;
+        bottom: 90px;
+    }
+}
+
+@media (max-width: 1230px){
+    .backstage>div{
+        width: 940px;
+        height: 427px;
+        margin-top: 109px;
+        margin-left: 1vw;
+    }
+
+    .backstage>img{
+        display: none;
+    }
+
+    .backstage>div>img{
+        width: 455px;
+        height: 408px;
+        object-fit: cover;
+    }
+
+    .backstage>div>div>p{
+        margin-left: 3.1vw;
+        margin-top: -8px;
+    } 
+
+    .pets-selection{
+        margin-top: 142px;
+        width: 960px;
+        height: 901px;
+        gap: 2.9vw;
+        margin-left: 3.0vw;
+    }
+
+    .pets-selection>div{
+        height: 354px;
+        width: 294px;
+    }
+
+    .item-3{
+        order: 3;
+    }
+
+    .item-4{
+        order: 3;
+    }
+
+    .item-4{
+        display: none;
+    }
+
+    .item-6{
+        order: 6;
+    }
+
+    .item-7{
+        display: block;
+        order: 5;
+    }
+
+    
+
+    .icon{
+        left: 240px;
+        bottom: 40px;
+    }
+
+    .fish{
+        left: 230px;
+    }
+
+    .animal-header{
+        padding-left: 5px;
+        padding-top: 3px
+    }
+
+    .pets-selection>div>img {
+        width: 292px;
+        height: 294px;
+    }
+    
+    
+    .pets-selection>div>div{
+        width: 22.97vw;
+        margin-left: 1.0vw;
+        transition: 1.3s;
+    }
+    
+    
+    #arr1{
+        top: 1833px;
+        left: 35.2vw;
+    }
+
+    
+    #arr2{
+        right: 33.4vw;
+        top: 1833px;
+    }
+    
+    #arr2>img, #arr1>img{
+        left: 23px;
+    }
+    
+    
+    .palm{
+        display: none;
+        position: absolute;
+        left: 0px;
+        top: 2176px;
+        height: 202px;
+        width: 192px;
+    }
+
+    .palm-mobile{
+        display: block;
+        position: absolute;
+        left: 2333px;
+        top: 2205px;
+        height: 202px;
+        width: 192px;
+    }
+    
+    .strel{
+        top: 2355px;
+        right: 0px;
+        width: 241px;
+        height: 180px;
+    }
+
+    #choose-fav{
+        margin-top: -18px;
+    }
+
+    .pick{
+        margin-left: 2.34vw;
+        width: 95%;
+    }
+
+    .testis{
+        margin-left: 3.75vw;
+    }
+
+    .testis>h3{
+        margin-right: 25vw;
+    }
+
+    .testis>img{
+        top: 4171.88px;
+    }
+}
+
+@media (max-width: 1180px){
+
+    .pick-f-div{
+        width: 900px;
+        margin-left: 9vw;
+    }
+
+    .scale{
+        margin-left: 9vw;
+    }
+
+    .amounts{
+        gap: 4.9vw;
+        margin-top: 6px;
+        margin-left: 8.08vw;
+    }
+
+    #donation-page{
+        left: 22.19vw;
+    }
+
+    .share{
+        margin-left: -4.62vw;
+    }
+}
+
+@media (max-width: 1042px){
+    .input{
+        left: 61.5vw;
+    }
+}
+
+@media (max-width: 1011px){
+    .animal-online>div{
+        left: calc(41% - 500.31px/2 + 330.15px);
+    }
+}

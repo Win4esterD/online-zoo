@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Donate</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles-adaptive.css">
+    <link rel="stylesheet" href="assets/css/styles-responsive1000.css">
+    <link rel="stylesheet" href="assets/css/styles-responsive640.css">
+    <link rel="stylesheet" href="assets/css/styles-responsive470.css">
+    <link rel="stylesheet" href="assets/css/styles-responsive320.css">
 </head>
 <body>
-    <header id="header-donate">
+    <header id="donate-header">
         <a href="index.html" class="logo"><h1>PetStory online<img src="assets/img/bamboo.png"></h1></a>
         <nav class="nav-header">
-            <ul>
+            <ul class="nav-header-ul">
                 <li><a href="index.html">About</a></li>
                 <li><a href="#">Map</a></li>
                 <li><a href="#">Zoos</a></li>
@@ -23,11 +28,26 @@
                 <li><a href="">Contact us</a></li>
             </ul>
         </nav>
-        <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by ©</a>
+        <a id="designed-by" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by ©</a>
+        <img id="burger-menu" src="assets/img/burger_menu.png" alt="burger-menu">
+
+        <div class="burger">
+            <a href="index.html"><img id="bamboo-orange" src="assets/img/bamboo_orange.png" alt=""><img src="assets/img/Petstory_burger.png" alt="burger-logo"></a>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="#">Map</a></li>
+                <li><a href="#">Zoos</a></li>
+                <li><a id="active-nav" href="donate.html">Donate</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by ©</a></li>
+            </ul>
+            <img id="burger-cross" src="assets/img/x_icon.png" alt="x-icon">
+        </div>
     </header>
 
 
     <main>
+        <div id="black-background"></div>
         <section class="panda-bg">
         </section>
 
@@ -44,37 +64,40 @@
                             <img src="assets/img/amount_of_days_donate.png" alt="amount_of_days_donate">
                             <p>Panda diet for the day.</p>
                         </div>
-                        <div>
-                            <img src="/assets/img/animals-widget.png" alt="panda">
+
+                        <img src="assets/img/x_icon.png" id="x-icon" alt="x-icon">
+
+                        <div class="don-panda">
+                            <img src="assets/img/animals-widget.png" alt="panda">
                         </div>
                     </div>
                     <p id="amnt">Amount</p>
                     <div class="scale">
                         <div class="scalings">
                             <div class="points">
-                                <div class="point"></div>
-                                <div class="point"></div>
+                                <div class="point"><img class="roller" src="assets/img/roller_icon.png" alt="roller"></div>
+                                <div class="point"><img class="roller" src="assets/img/roller_icon.png" alt="roller"></div>
+                                <div class="point"><img class="roller" src="assets/img/roller_icon.png" alt="roller"></div>
+                                <div class="point"><img class="roller" src="assets/img/roller_icon.png" alt="roller"></div>
+                                <div class="point"><img class="roller" src="assets/img/roller_icon.png" alt="roller"></div>
                                 <div class="point"><img id="roller1" class="roller" src="assets/img/roller_icon.png" alt="roller"></div>
-                                <div class="point"></div>
-                                <div class="point"></div>
-                                <div class="point"></div>
-                                <div class="point"></div>
-                                <div class="point"></div>
+                                <div class="point"><img class="roller" src="assets/img/roller_icon.png" alt="roller"></div>
+                                <div class="point"><img class="roller" src="assets/img/roller_icon.png" alt="roller"></div>
                             </div>
                         </div>
                     </div>
                     <div class="amounts">
                         <p class="amount">$5000</p>
                         <p class="amount">$2000</p>
-                        <p id="golden" class="amount">$1000</p>
+                        <p class="amount">$1000</p>
                         <p class="amount">$500</p>
                         <p class="amount">$250</p>
-                        <p class="amount">$100</p>
+                        <p id="golden" class="amount">$100</p>
                         <p class="amount">$50</p>
                         <p class="amount">$25</p>
                     </div>
 
-                    <div><input type="number" name="number" id="donate-amount" placeholder="Another amount" value="$" max='9999'>
+                    <div><input type="number" name="number" id="donate-amount" placeholder="Another amount" value="100" max='9999' maxlength="4">
                     <img id="usd" src="assets/img/USD.png" alt="usd">
                     </div>
 
@@ -95,6 +118,10 @@
         <div class="logo-footer">
             <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
         </div>
+        <div class="logo-footer-mob">
+            <h3>PetStory online</h3>
+            <img src="assets/img/bamboo.png" alt="">
+        </div>
         <button class = "btn" id="for-volunteers"><a href="donate.html">donate for volunteers</a></button>
         <div class="socials">
             <div><a href="https://www.facebook.com/"><img src="assets/img/facebook.png" alt="facebook"></a></div>
@@ -102,6 +129,14 @@
             <div><a href="https://www.instagram.com/"><img src="assets/img/instagram.png" alt="instagram"></a></div>
             <div><a href="https://www.youtube.com/"><img src="assets/img/youtube.png" alt="youtube"></a></div>
         </div>
+
+        <div class="socials-mob">
+            <div><a href="https://www.facebook.com/"><img src="assets/img/facebook-mob.png" alt="facebook"></a></div>
+            <div><a href="https://twitter.com/"><img src="assets/img/twitter-mob.png" alt="twitter"></a></div>
+            <div><a href="https://www.instagram.com/"><img src="assets/img/instagram-mob.png" alt="instagram"></a></div>
+            <div><a href="https://www.youtube.com/"><img src="assets/img/youtube-mob.png" alt="youtube"></a></div>
+        </div>
+
         <div class="input">
             <p>Subscribe to our news</p>
             <input type="email" name="email" placeholder="Enter your email" required>
@@ -109,10 +144,9 @@
         </div>
         <nav class="nav-footer">
             <ul>
-                <li><a href="index.html">About</a></li>
+                <li><a href="index.html" id="active-nav">About</a></li>
                 <li><a href="#">Map</a></li>
                 <li><a href="#">Zoos</a></li>
-                <li><a href="donate.html" id="active-nav">Donate</a></li>
                 <li><a href="">Contact us</a></li>
             </ul>
         </nav>
@@ -120,7 +154,9 @@
             <p>Designed by Alisa Samborskaya</p>
             <p>©RSSchool & ©Yem Digital 2021</p>
         </div>
-        <script src="assets//scripts/script.js"></script>
+        <!-- <script src="assets//scripts/index.js"></script> -->
+        <script src="assets//scripts/donate.js"></script>
+        <script src="assets//scripts/burger.js"></script>
     </footer>
 </body>
 </html>
